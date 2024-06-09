@@ -92,10 +92,12 @@ It does not look like there is a lot of correlation we can leverage, although wh
 emp.var.rate
 cons.price.idx
 
+
 and between these other two:
 
 euribor3m
 nr.employed
+
 
 Also, the only correlation of the outcome y and the features is 'duration' and 'previous': both related to being previously contacted by marketing
 
