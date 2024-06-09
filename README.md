@@ -140,3 +140,9 @@ After this we compare for different classifier to understand the best:
 The accuracy for all four tests is similar, with Logistic regression being the best with SVM runner up.
 
 Notable the amount of time taken by SVM due to conmplex matrix based calculations part of the training process
+
+### Improvments
+
+Applying GridSearchCV to the four models used only worked for the fastest models: the fact that we are dealing with 100+ features (due to the oneHotEncoded) and using a normal CPU for the calculations made this process last hours and eventually timed out
+
+So I will now repeat the calculation with only numerical features and simple non numerical ones (e.g. the ones where values are yes/no)
