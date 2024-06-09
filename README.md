@@ -127,7 +127,7 @@ We perform the following operations to further massage the data:
 
 - We encode non numerical features with OneHotEncoding
 - We use StandardScaler to normalize the data (which is very inportant especially for Support Vecto Machine models)
-- We split the data in train (80%) and test (20)
+- We split the data in train (80%) and test (20%)
 
 Now we apply a Dummy classifier to establish a baseline obtaining an accuracy of 88.73%
 
