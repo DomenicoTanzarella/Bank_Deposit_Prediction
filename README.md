@@ -8,7 +8,7 @@ The dataset comes from the UCI Machine Learning repository and provide an overvi
 
 To frame the task, we will refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. A brief overview of CRISP-DM is here.
 
-The notebook is here: [Bank_account.ipynb](https://github.com/DomenicoTanzarella/Bank_Deposit_Prediction/blob/main/bank_account.ipynb) 
+The notebook is here: [Bank_account.ipynb](https://github.com/DomenicoTanzarella/Bank_Deposit_Prediction/blob/main/Bank_account.ipynb) 
 
 ### Business Understanding
 
