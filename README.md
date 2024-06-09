@@ -12,7 +12,7 @@ The notebook is here: [Bank_account.ipynb](https://github.com/DomenicoTanzarella
 
 ### Business Understanding
 
-    This data represents 17 campaigns with 79354 contacts gathered. The campaigns were all phone campaigns conducted between May 2008 and November 2010. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
+This data represents 17 campaigns with 79354 contacts gathered. The campaigns were all phone campaigns conducted between May 2008 and November 2010. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 
 ### Data Understanding
