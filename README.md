@@ -143,6 +143,8 @@ Notable the amount of time taken by SVM due to conmplex matrix based calculation
 
 ### Improvments
 
-Applying GridSearchCV to the four models used only worked for the fastest models: the fact that we are dealing with 100+ features (due to the oneHotEncoded) and using a normal CPU for the calculations made this process last hours and eventually timed out
+Applying GridSearchCV to the four models used only worked for the fastest models: the fact that we are dealing with 100+ features (due to the oneHotEncoded) and using a normal CPU for the calculations made this process last hours and eventually timed out.
+
+Results for Logistic Regression and Decision Tree after the GridSearch cross validation are in line with what we found using the default parameters.
 
 So I will now repeat the calculation with only numerical features and simple non numerical ones (e.g. the ones where values are yes/no)
