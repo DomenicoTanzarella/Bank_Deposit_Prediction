@@ -135,6 +135,8 @@ After this we compare for different classifier to understand the best:
 
 ![alt text](https://github.com/DomenicoTanzarella/Bank_Deposit_Prediction/blob/main/classifier_comparison.png)
 
+### Finding
+
 The accuracy for all four tests is similar, with Logistic regression being the best with SVM runner up.
 
 Notable the amount of time taken by SVM due to conmplex matrix based calculations part of the training process
