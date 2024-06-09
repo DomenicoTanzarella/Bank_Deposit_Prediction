@@ -147,4 +147,16 @@ Applying GridSearchCV to the four models used only worked for the fastest models
 
 Results for Logistic Regression and Decision Tree after the GridSearch cross validation are in line with what we found using the default parameters.
 
-So I will now repeat the calculation with only numerical features and simple non numerical ones (e.g. the ones where values are yes/no)
+### Conclusions and Possible Next Steps
+
+The classification model generated has accuracies and f1-score around 88% and up which means it does a good job to predict customer opening an account: domain knowledge shows that marital status, having a mortgage or a personal loan are strong indicators of accepting bank opening account offers and contributed to get the prediction right.
+
+LogisticRegression() along with GridSearchCV helped achieve accuracy on test data of 89% and f1-score of 94%, making it the classifier of choice with the compute resources available.
+
+Being able to access to powerful GPUs would have helped with cross validation for KNN and SVM, possibly scoring even better accuracy with fine tuned models.
+
+Also including the 'number of contacts performed before this campaign and for this client' as feature ('previous') and its outcome (feature 'poutcome') might improve further the accuracy of the prediction and should be tested as next step.
+
+Lastly, It would be interesting to explore accuracy of the model only using numerical features as we only used the bank data that were mostly non numerical: likely not a game changer as we noticed from the correlation matrix posted above, but still interesting to take a look at it.
+
+
