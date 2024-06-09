@@ -52,7 +52,7 @@ The main featurs are the ones related to the bank client data:
 
 15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 
-# social and economic context attributes
+#### social and economic context attributes
 16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
 
 17 - cons.price.idx: consumer price index - monthly indicator (numeric)
@@ -63,7 +63,7 @@ The main featurs are the ones related to the bank client data:
 
 20 - nr.employed: number of employees - quarterly indicator (numeric)
 
-Output variable (desired target):
+####Output variable (desired target):
 
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
