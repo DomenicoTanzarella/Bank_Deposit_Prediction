@@ -77,7 +77,7 @@ After our initial exploration and fine tuning of the business understanding, it 
 
 The Dataset per se is quite clean: few duplicates and no missing data that were removed.
 
-Below is the pie chart showng that the outcome feature 'y' (custoemr opening an account) is really not balanced:
+Below is the pie chart showng that the outcome feature 'y' (customer opening an account) is really not balanced:
 
 ![alt text](https://github.com/DomenicoTanzarella/Bank_Deposit_Prediction/blob/main/outcome_distribution.png)
 
