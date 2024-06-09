@@ -137,4 +137,4 @@ After this we compare for different classifier to understand the best:
 
 The accuracy for all four tests is similar, with Logistic regression being the best with SVM runner up.
 
-Notable the amount of time taken by SVM due to conmplex matric calculations part of the training process
+Notable the amount of time taken by SVM due to conmplex matrix based calculations part of the training process
