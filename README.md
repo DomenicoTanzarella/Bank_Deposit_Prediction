@@ -96,6 +96,7 @@ cons.price.idx
 and between these other two:
 
 euribor3m
+
 nr.employed
 
 
